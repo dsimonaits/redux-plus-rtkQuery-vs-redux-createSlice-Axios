@@ -37,11 +37,14 @@ To get started with this project, you'll need to follow these steps:
    ```
 
 2. Install dependencies:
-
+ ```
    npm install
-
+ ```
 3. Start the development server:
+4.  ```
    npm run dev
-
-4. Start the JSON server:
+ ```
+5. Start the JSON server:
+ ```
    npm run db
+ ```
