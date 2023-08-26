@@ -33,18 +33,21 @@ To get started with this project, you'll need to follow these steps:
 
    ```bash
    git clone https://github.com/your-username/redux-typescript-app.git
-
    ```
 
 2. Install dependencies:
- ```
+   ```bash
    npm install
- ```
+   ```
+   
 3. Start the development server:
-4.  ```
+   ```bash
    npm run dev
- ```
+   ```
+
 5. Start the JSON server:
- ```
+   ```bash
    npm run db
- ```
+   ```
+   
+
