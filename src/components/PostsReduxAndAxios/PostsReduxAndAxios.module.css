@@ -1,0 +1,21 @@
+.postContainer {
+  padding: 15px;
+  flex: 1;
+}
+
+.heading {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.btnList {
+  margin-bottom: 10px;
+}
+
+.createPostBtn {
+  margin-right: 10px;
+}
+
+.refetchBtn {
+  margin-right: 20px;
+}
