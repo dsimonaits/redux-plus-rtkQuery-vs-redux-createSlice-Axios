@@ -1,4 +1,5 @@
 # redux-plus-rtkQuery-vs-redux-createSlice-Axios
+![Alt Text](https://github.com/dsimonaits/redux-plus-rtkQuery-vs-redux-createSlice-Axios/blob/main/public/screenshot.jpg)
 
 I developed a small web application using two different techniques for managing state and handling API requests: Redux with RTK Query and Redux Toolkit with Axios.
 
