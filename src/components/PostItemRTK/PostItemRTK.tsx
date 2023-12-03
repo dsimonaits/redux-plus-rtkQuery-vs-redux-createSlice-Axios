@@ -9,7 +9,7 @@ interface PostItemProps {
   update: (post: IPost) => void;
 }
 
-const PostItemAxios: FC<PostItemProps> = ({ post, remove, update }) => {
+const PostItemRTK: FC<PostItemProps> = ({ post, remove, update }) => {
   return (
     <li className={cl.postItem}>
       <div>
@@ -26,4 +26,4 @@ const PostItemAxios: FC<PostItemProps> = ({ post, remove, update }) => {
   );
 };
 
-export default PostItemAxios;
+export default PostItemRTK;
