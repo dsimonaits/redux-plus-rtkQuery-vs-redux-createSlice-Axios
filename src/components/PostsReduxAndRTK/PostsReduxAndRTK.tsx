@@ -1,6 +1,7 @@
+/* eslint-disable no-empty-pattern */
 import React, { FC, useEffect, useState } from "react";
 import { postAPI } from "../../services/PostsService";
-import PostItemRTK from "../PostItemAxios/PostItemAxios";
+import PostItemAxios from "../PostItemAxios/PostItemAxios";
 import cl from "./PostsReduxAndRTK.module.css";
 import Loader from "../UI/Loader/Loader";
 import MyButton from "../UI/button/MyButton";
@@ -81,7 +82,7 @@ const PostsReduxAndRTK: FC = () => {
         {error && <h3>Error acquired</h3>}
         {posts &&
           posts.map((post) => (
-            <PostItemRTK
+            <PostItemAxios
               key={post.id}
               post={post}
               update={handleUpdate}
